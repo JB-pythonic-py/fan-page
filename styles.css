@@ -2,48 +2,98 @@
 article, footer, header, nav, section {
     display: block;
 }
-
+#background {
+    background-image: url("background.png");
+}
+article {
+    background-color: #CDD6D0;
+    border-radius: 25px;
+    padding-right: 5px;
+    padding-left: 15px;
+}
+article a {
+    font-weight: bold;
+}
 body {
-    background-color: #ADD8E6;
-    font-family: Perpetua;
+    background-color: #D6A99A;
     color: darkolivegreen;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 20px;
+    padding: auto;
 }
-
-#kegtype {
-    background-color: azure;
-    color: black;
-
-}
-
 header {
+    padding: 10px;
+    background-color: #CDD6D0;
+    border-radius: 25px;
+    border: 2px groove #E16036;
+
+}
+header h1{
     width: 30%;
-    padding: 5px 30px;
-    background-position: center;
-    background-color: mistyrose;
-    box-shadow: 2px 4px 9px antiquewhite;
+    font-size: 300%;
+    padding-bottom: 12px;
+    color: #E16036;
 }
-
-h1, h2 {
-    font-family: "Book Antiqua";
-}
-
 h1 {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
     margin-top: 15px;
     margin-bottom: 0;
     color: #0000FF;
     text-shadow: 2px 2px 3px white;
 }
-
-section {
-    padding: 25px 25px;
+h3 {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15.4px;
 }
-
+h2 {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 20px;
+    font-variant: normal;
+    font-weight: 500;
+    color: #E16036;
+    line-height: 15.4px;
+    border-radius: 15px 50px 30px;
+    border: groove #CDD6D0;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: auto;
+    height: 24px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-top: 6px;
+}
+article p {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
 ul {
-    list-style-type: circle;
+    list-style-type: decimal;
 }
 
 footer {
     color: white;
+    font-size: 75%;
     text-align: center;
     padding: 4px;
+    font-style: italic;
 }
